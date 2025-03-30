@@ -61,6 +61,8 @@ jobs:
         run: npx nuxi build --preset github_pages
         env:
           NUXT_CONTENT_PREVIEW_API: https://api.nuxt.studio
+          NUXT_PUBLIC_SITE_URL: https://yung988-vision-studio.nuxt.space
+          NUXT_PUBLIC_STUDIO_TOKENS: ${{ secrets.NUXT_PUBLIC_STUDIO_TOKENS }}
           
 
       # Deployment job

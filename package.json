@@ -22,7 +22,6 @@
     "@nuxt/image": "1.10.0",
     "@nuxt/scripts": "0.11.2",
     "@nuxt/ui": "3.0.1",
-    "@nuxthub/core": "0.8.22",
     "@nuxtjs/i18n": "9.3.4",
     "@nuxtjs/seo": "^2.2.0",
     "@vueuse/core": "12.8.2",
@@ -41,15 +40,14 @@
     "wrangler": "^3.114.2"
   },
   "packageManager": "pnpm@10.5.2",
-  "engines": {
-    "node": ">=18.0.0",
-    "pnpm": ">=8.14.0"
-  },
   "pnpm": {
     "peerDependencyRules": {
-      "ignoreMissing": [
-        "vue"
-      ]
+      "ignoreMissing": ["vue"]
     }
+  },
+  "studio": {
+    "name": "Studio.Vision",
+    "url": "https://yung988-vision-studio.nuxt.space",
+    "theme": "tw-bg-neutral-950 tw-text-neutral-200"
   }
 }

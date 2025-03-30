@@ -59,6 +59,9 @@ export default defineNuxtConfig({
     renderer: {
       anchorLinks: false,
     },
+    experimental: {
+      nativeSqlite: false
+    },
     preview: {
       api: 'https://api.nuxt.studio',
       dev: true,
@@ -67,7 +70,7 @@ export default defineNuxtConfig({
         owner: 'yeezuz332',
         url: 'https://github.com/yeezuz332/vision.studio'
       }
-    },
+    }
   },
 
   mdc: {
@@ -87,7 +90,7 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/': { prerender: false },
+    '/**': { prerender: false },
   },
 
   future: {
@@ -104,12 +107,20 @@ export default defineNuxtConfig({
     experimental: {
       websocket: true,
     },
-    prerender: {
-      autoSubfolderIndex: false,
-      crawlLinks: true,
-      routes: ['/cs', '/en'],
-      failOnError: false
+    preset: 'cloudflare_pages',
+    storage: {
+      'content-sqlite': {
+        driver: 'cloudflare-kv-binding',
+        binding: 'KV'
+      },
+      'cache': {
+        driver: 'cloudflare-kv-binding',
+        binding: 'CACHE'
+      }
     },
+    future: {
+      nativeSWR: true
+    }
   },
 
   hooks: {
