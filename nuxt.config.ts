@@ -1,12 +1,5 @@
 export default defineNuxtConfig({
-  modules: [
-    '@vueuse/nuxt',
-    '@nuxt/ui',
-    '@nuxtjs/i18n',
-    '@nuxtjs/seo',
-    '@nuxt/content',
-    '@nuxt/image',
-  ],
+  modules: ['@vueuse/nuxt', '@nuxt/ui', '@nuxtjs/i18n', '@nuxtjs/seo', '@nuxt/content', '@nuxt/image', '@nuxthub/core'],
 
   app: {
     head: {

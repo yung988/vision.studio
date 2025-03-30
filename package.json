@@ -22,6 +22,7 @@
     "@nuxt/image": "1.10.0",
     "@nuxt/scripts": "0.11.2",
     "@nuxt/ui": "3.0.1",
+    "@nuxthub/core": "0.8.22",
     "@nuxtjs/i18n": "9.3.4",
     "@nuxtjs/seo": "^2.2.0",
     "@vueuse/core": "12.8.2",
@@ -46,7 +47,9 @@
   },
   "pnpm": {
     "peerDependencyRules": {
-      "ignoreMissing": ["vue"]
+      "ignoreMissing": [
+        "vue"
+      ]
     }
   }
 }
