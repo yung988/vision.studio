@@ -6,12 +6,20 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@nuxt/content',
     '@nuxt/image',
-    '@nuxt/scripts',
   ],
 
   app: {
     head: {
       link: [
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com'
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossorigin: ''
+        },
         {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap'
@@ -55,6 +63,9 @@ export default defineNuxtConfig({
   },
 
   content: {
+    markdown: {
+      anchorLinks: false
+    },
     renderer: {
       anchorLinks: false,
     },
@@ -81,7 +92,6 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    // Needed to activate preview on Nuxt Studio
     '/': { prerender: false },
   },
 
@@ -119,6 +129,9 @@ export default defineNuxtConfig({
   },
 
   i18n: {
+    bundle: {
+      optimizeTranslationDirective: false
+    },
     locales: [
       { code: 'en', name: 'English', language: 'en-US' },
       { code: 'fr', name: 'French', language: 'fr-FR' },
