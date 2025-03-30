@@ -1,6 +1,12 @@
 {
   "name": "studio-vision",
+<<<<<<< Updated upstream
   "author": "Yung98"
+=======
+  "author": "Yung98",
+  "private": true,
+  "license": "Apache-2.0",
+>>>>>>> Stashed changes
   "scripts": {
     "automd": "automd",
     "build": "nuxt build",
