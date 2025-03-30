@@ -52,7 +52,7 @@ export default defineNuxtConfig({
   css: ['~/assets/style/main.css'],
 
   site: {
-    url: 'https://canvas.hrcd.fr',
+    url: 'https://studio.vision',
     defaultLocale: 'en',
     indexable: true,
   },
@@ -69,10 +69,6 @@ export default defineNuxtConfig({
     preview: {
       api: 'https://api.nuxt.studio',
       dev: true,
-    },
-    database: {
-      type: 'sqlite',
-      filename: ':memory:'
     },
   },
 

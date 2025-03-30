@@ -1,5 +1,12 @@
 name: Deploy to NuxtHub
-on: push
+on:
+  push:
+    paths:
+      - 'pages/**'
+      - 'public/**'
+      - 'app/**'
+      - '.github/workflows/nuxtjs.yml'
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -18,7 +25,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          package_json_file: 'package.json'
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -30,6 +37,8 @@ jobs:
         run: pnpm install
 
       - name: Build application
+        env:
+          NODE_ENV: production
         run: pnpm run build
 
       - name: Deploy to NuxtHub
