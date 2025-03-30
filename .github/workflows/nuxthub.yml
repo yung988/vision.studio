@@ -44,6 +44,8 @@ jobs:
         run: pnpx nuxthub@latest ensure
 
       - name: Build application
+        env:
+          NODE_ENV: production
         run: pnpm build
 
       - name: Deploy to NuxtHub

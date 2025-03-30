@@ -70,6 +70,10 @@ export default defineNuxtConfig({
       api: 'https://api.nuxt.studio',
       dev: true,
     },
+    database: {
+      type: 'sqlite',
+      filename: ':memory:'
+    },
   },
 
   mdc: {
