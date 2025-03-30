@@ -1,0 +1,53 @@
+{
+  "title": "FAQ",
+  "subtitle": "Často kladené otázky",
+  "faqQuestions": [
+    {
+      "title": "Služby",
+      "questions": [
+        {
+          "label": "Jaké služby nabízíte?",
+          "content": "Nabízíme širokou škálu služeb včetně webdesignu, vývoje webových aplikací, brandingu a fotografie. Můžeme také pomoci s SEO a marketingem na sociálních sítích."
+        },
+        {
+          "label": "Můžete mě naučit, jak vytvořit webové stránky?",
+          "content": "V současné době nenabízíme kurzy, ale můžeme doporučit zdroje a rady, které vám pomohou získat maximum z vašeho vzdělávání."
+        }
+      ]
+    },
+    {
+      "title": "Ceny",
+      "questions": [
+        {
+          "label": "Kolik stojí projekt?",
+          "content": "Cena projektu závisí na mnoha faktorech, jako je velikost projektu, funkce, doba vývoje atd. Počáteční částka našich webových služeb začíná na 50 000 Kč, přičemž průměrná cena se pohybuje mezi 75 000 Kč a 250 000 Kč. Za jakékoliv další designové nebo konzultační služby obvykle účtujeme 11 000 Kč za den."
+        },
+        {
+          "label": "Jak funguje platba za projekt?",
+          "content": "Před zahájením projektu požadujeme zálohu 40 % a zbývajících 60 % po úspěšném dodání. Přijímáme platby bankovním převodem, PayPalem atd."
+        },
+        {
+          "label": "Jak dlouho trvá projekt?",
+          "content": "Je obtížné dát přesný odhad, protože každý projekt je jiný, ale většina našich předchozích prací trvala mezi 2 týdny a 2 měsíci."
+        },
+        {
+          "label": "Nabízíte slevy?",
+          "content": "Nabízíme 15% slevu pro studenty a neziskové organizace."
+        }
+      ]
+    },
+    {
+      "title": "O nás",
+      "questions": [
+        {
+          "label": "Co vás na této práci nejvíce baví?",
+          "content": "Milujeme učení se novým věcem a možnost vytvářet prakticky cokoliv od základů, vytvářet krásné věci, které lidé budou používat a oceňovat."
+        },
+        {
+          "label": "Koníčky mimo práci?",
+          "content": "Milujeme to, co děláme, takže obvykle trávíme hodně času prací na osobních projektech, fotografií atd. Jsme také velkými fanoušky sportu. Často chodíme do posilovny a nedávno jsme začali s lezením!"
+        }
+      ]
+    }
+  ]
+}

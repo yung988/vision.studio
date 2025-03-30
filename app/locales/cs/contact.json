@@ -1,0 +1,20 @@
+{
+  "title": "Kontaktujte nás",
+  "description": "Promluvme si o vašich nápadech, projektech nebo o čemkoliv jiném",
+  "fullname": "Celé jméno",
+  "email": "E-mail",
+  "phone": "Telefon",
+  "subject": "Předmět zprávy",
+  "message": "Zpráva",
+  "submit": "Odeslat",
+  "disabled": "Musíte nastavit Resend API klíč",
+  "success": "Vaše zpráva byla úspěšně odeslána",
+  "error": "Jejda, při odesílání zprávy došlo k chybě",
+  "budget": "Rozpočet",
+  "subject_types": {
+    "project": "Promluvit o projektu",
+    "bug": "Nahlásit chybu",
+    "question": "Položit otázku",
+    "other": "Jiné"
+  }
+}

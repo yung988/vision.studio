@@ -45,8 +45,8 @@ export default defineNuxtConfig({
   css: ['~/assets/style/main.css'],
 
   site: {
-    url: 'https://studio.vision',
-    defaultLocale: 'en',
+    url: 'https://yung988-vision-studio.nuxt.space',
+    defaultLocale: 'cs',
     indexable: true,
   },
 
@@ -62,6 +62,11 @@ export default defineNuxtConfig({
     preview: {
       api: 'https://api.nuxt.studio',
       dev: true,
+      gitInfo: {
+        name: 'vision.studio',
+        owner: 'yeezuz332',
+        url: 'https://github.com/yeezuz332/vision.studio'
+      }
     },
   },
 
@@ -102,7 +107,7 @@ export default defineNuxtConfig({
     prerender: {
       autoSubfolderIndex: false,
       crawlLinks: true,
-      routes: ['/en', '/fr'],
+      routes: ['/cs', '/en'],
       failOnError: false
     },
   },
@@ -124,8 +129,8 @@ export default defineNuxtConfig({
       optimizeTranslationDirective: false
     },
     locales: [
+      { code: 'cs', name: 'Česky', language: 'cs-CZ' },
       { code: 'en', name: 'English', language: 'en-US' },
-      { code: 'fr', name: 'French', language: 'fr-FR' },
     ],
     detectBrowserLanguage: {
       useCookie: true,
@@ -133,7 +138,7 @@ export default defineNuxtConfig({
       redirectOn: 'root',
     },
     strategy: 'prefix',
-    defaultLocale: 'en',
+    defaultLocale: 'cs',
     vueI18n: '~/i18n.config.ts',
   },
 
