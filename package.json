@@ -1,24 +1,20 @@
 {
   "name": "studio-vision",
-<<<<<<< Updated upstream
-  "author": "Yung98"
-=======
   "author": "Yung98",
   "private": true,
   "license": "Apache-2.0",
->>>>>>> Stashed changes
   "scripts": {
-    "automd": "automd",
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "typecheck": "tsc --noEmit",
+    "automd": "pnpm automd",
+    "build": "pnpm nuxt build",
+    "dev": "pnpm nuxt dev",
+    "generate": "pnpm nuxt generate",
+    "preview": "pnpm nuxt preview",
+    "postinstall": "pnpm nuxt prepare",
+    "typecheck": "pnpm tsc --noEmit",
     "start": "node .output/server/index.mjs",
-    "deploy": "nuxthub deploy",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "deploy": "pnpm nuxthub deploy",
+    "lint": "pnpm eslint .",
+    "lint:fix": "pnpm eslint . --fix"
   },
   "dependencies": {
     "@nuxt/content": "^3.4.0",
@@ -42,5 +38,15 @@
     "automd": "0.4.0",
     "eslint": "9.23.0",
     "wrangler": "^3.114.2"
+  },
+  "packageManager": "pnpm@10.5.2",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.14.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["vue"]
+    }
   }
 }

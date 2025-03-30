@@ -63,9 +63,6 @@ export default defineNuxtConfig({
   },
 
   content: {
-    markdown: {
-      anchorLinks: false
-    },
     renderer: {
       anchorLinks: false,
     },
