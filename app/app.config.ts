@@ -18,9 +18,9 @@ export default defineAppConfig({
     spotify: '',
   },
   seo: {
-    title: 'Studio.Vision @',
+    title: 'Studio.Vision',
     description: 'Jsme Studio.Vision a pomáháme firmám s tvorbou webových stránek, vizuálního stylu, Fotografiemi a vším co by mohli potřebovat. ',
-    url: 'https://vision-studio.nuxt.dev/en',
+    url: 'https://vision-studio.nuxt.dev',
     lang: 'en',
   },
   ui: {
