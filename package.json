@@ -1,8 +1,6 @@
 {
   "name": "studio-vision",
-  "author": "Yung98",
-  "private": true,
-  "license": "Apache-2.0",
+  "author": "Yung98"
   "scripts": {
     "automd": "automd",
     "build": "nuxt build",
