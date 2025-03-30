@@ -4,9 +4,9 @@
 @import "./animation.css";
 
 @theme {
-  --font-newsreader: "Newsreader", serif;
-  --font-geist: "Geist", sans-serif;
-  --font-mono: "Geist Mono", sans-serif;
+  --font-newsreader: "Newsreader", Georgia, Times, "Times New Roman", serif;
+  --font-geist: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --color-main: var(--ui-bg);
   --color-secondary: var(--color-secondary);

@@ -9,6 +9,17 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
   ],
 
+  fonts: {
+    families: {
+      Newsreader: true,
+      Geist: true,
+      'Geist Mono': true,
+    },
+    experimental: {
+      skipFontFaceGeneration: true
+    }
+  },
+
   imports: {
     presets: [
       {
