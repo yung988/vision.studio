@@ -9,14 +9,22 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
   ],
 
-  fonts: {
-    families: {
-      Newsreader: true,
-      Geist: true,
-      'Geist Mono': true,
-    },
-    experimental: {
-      skipFontFaceGeneration: true
+  app: {
+    head: {
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap'
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/@fontsource/geist@5.0.0/index.css'
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@5.0.0/index.css'
+        }
+      ]
     }
   },
 
