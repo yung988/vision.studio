@@ -110,6 +110,7 @@ export default defineNuxtConfig({
       autoSubfolderIndex: false,
       crawlLinks: true,
       routes: ['/en', '/fr'],
+      failOnError: false
     },
   },
 
