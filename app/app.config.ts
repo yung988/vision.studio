@@ -1,26 +1,26 @@
 export default defineAppConfig({
   global: {
-    meetingLink: 'https://cal.com/hugorcd/15min',
+    meetingLink: 'https://cal.com/studio-vision/15min',
     available: true,
   },
   profile: {
-    name: 'Hugo Richard',
-    job: 'Frontend Architect and Designer',
-    email: 'contact@hrcd.fr',
-    phone: '(+33) 6 21 56 22 18',
-    picture: 'https://avatars.githubusercontent.com/u/71938701?v=4',
+    name: 'Studio.Vision',
+    job: 'Tvoříme webové stránky, webové aplikace, branding, design, fotografie, reklamní spoty. ',
+    email: 'jangajdosprod@gmail.com',
+    phone: '(+420) 733 48 12 80',
+    picture: '',
   },
   socials: {
-    github: 'https://github.com/HugoRCD',
-    twitter: 'https://twitter.com/HugoRCD__',
-    linkedin: 'https://www.linkedin.com/in/hugo-richard-0801',
-    instagram: 'https://www.instagram.com/hugo.rcd_',
-    spotify: 'https://open.spotify.com/user/yuvl0zpp3bpx4hne1ag7huten?si=df7ee2777c0c4fc4',
+    github: 'https://github.com/yung988',
+    twitter: 'https://x.com/Studio_Vision98',
+    linkedin: 'https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BFtuoJmbbQxGrZBmHv98nMg%3D%3D',
+    instagram: 'https://www.instagram.com/vis.ion0001/',
+    spotify: '',
   },
   seo: {
-    title: 'Canvas a Nuxt portfolio template',
-    description: 'Canvas is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by HugoRCD',
-    url: 'https://canvas.hrcd.fr',
+    title: 'Studio.Vision @',
+    description: 'Jsme Studio.Vision a pomáháme firmám s tvorbou webových stránek, vizuálního stylu, Fotografiemi a vším co by mohli potřebovat. ',
+    url: 'https://vision-studio.nuxt.dev/en',
   },
   ui: {
     colors: {
